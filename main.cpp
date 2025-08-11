@@ -7,8 +7,7 @@
 #include <vector>
 
 
-// Shader sources -> i tried using shader as a separate glsl files as we saw in class but it causes errors that I couldn't resolve
-//so I had to use them as const strings instead
+
 const char* vertexShaderSource = R"(
 #version 330 core
 layout (location = 0) in vec3 vPosition;
@@ -688,3 +687,4 @@ int main(int argc, char** argv) {
 
     return 0;
 }
+
